@@ -1050,11 +1050,11 @@
     grid-template-columns: 1fr;
     text-align: center;
 
-    padding-top: 250px;
+    padding-top: 320px;
   }
 
   .hero-center-logo {
-    top: 95px;
+    top: 165px;
   }
 
   .hero-center-logo img {
