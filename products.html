@@ -574,22 +574,34 @@
     /* Scan section (reuses existing scan-section from styles.css) */
 
     /* Responsive */
-    @media (max-width: 900px) {
-      .product-entry-inner {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
+@media (max-width: 900px) {
 
-      .product-entry:nth-child(even) .product-entry-inner {
-        direction: ltr;
-      }
+  .products-hero {
+    padding-top: 190px;
+  }
 
-      .pe-visual { min-height: 320px; }
+  .product-entry-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 
-      .collect-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-entry:nth-child(even) .product-entry-inner {
+    direction: ltr;
+  }
 
-      .product-tabs-nav { top: 72px; padding-top: 20px; }
-    }
+  .pe-visual {
+    min-height: 320px;
+  }
+
+  .collect-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-tabs-nav {
+    top: 72px;
+    padding-top: 20px;
+  }
+}
 
     @media (max-width: 600px) {
       .trust-bar { gap: 16px; }
