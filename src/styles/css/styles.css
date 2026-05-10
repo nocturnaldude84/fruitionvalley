@@ -100,8 +100,8 @@
 	}
 
     .hero {
-      min-height: auto;
-      padding-top: 40px;
+      min-height: 100vh;
+      padding-top: 220px;
       position: relative;
       overflow: hidden;
       display: grid;
@@ -109,6 +109,22 @@
       align-items: center;
       gap: 0;
     }
+
+	.hero-center-logo {
+	  position: absolute;
+	  top: 40px;
+	  left: 50%;
+ 	 transform: translateX(-50%);
+	  z-index: 5;
+	}
+
+	.hero-center-logo img {
+	  width: 320px;
+	  height: auto;
+	  display: block;
+
+	  filter: drop-shadow(0 18px 40px rgba(0,0,0,0.18));
+	}
 
     .hero-bg {
       position: absolute;
