@@ -1,1 +1,79 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f3fb;
+  color: #2f2f2f;
+}
+
+.products-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 6%;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-logo {
+  width: 90px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #5a23b1;
+  font-weight: 700;
+}
+
+.active-link {
+  color: #3d0d86;
+}
+
+.scan-btn {
+  background: #5b25b5;
+  color: white !important;
+  padding: 14px 24px;
+  border-radius: 999px;
+}
+
+.products-hero,
+.panda-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 6%;
+  background:
+    radial-gradient(circle at top right, rgba(142, 68, 255, 0.15), transparent 25%),
+    radial-gradient(circle at bottom left, rgba(86, 194, 113, 0.15), transparent 25%),
+    #f7f3fb;
+}
+
+.products-heading h1,
+.hero-left h1 {
+  font-size: 5rem;
+  line-height: 1;
+  color: #5b25b5;
+  margin-bottom: 24px;
+}
+
+.hero-left h1 span {
+  color: #d4a53f;
+}
+
+.products-heading p,
+.hero-left p {
+  font-size: 1.1rem;
+}
