@@ -5,26 +5,33 @@
 	/* ── RESET ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --green-deep:   #1a5c2a;
-      --green-mid:    #2e8b45;
-      --green-light:  #5cb85c;
-      --green-pale:   #e8f5e9;
-      --gold:         #d4a843;
-      --gold-light:   #f5d77a;
-      --purple:       #6a3d9a;
-      --purple-light: #9c6bc9;
-      --berry-red:    #c0392b;
-      --berry-blue:   #2471a3;
-      --cream:        #fdf9f0;
-      --white:        #ffffff;
-      --text-dark:    #1c2b1e;
-      --text-mid:     #3d5a40;
-      --radius-lg:    24px;
-      --radius-xl:    40px;
-      --shadow-soft:  0 8px 40px rgba(0,0,0,0.10);
-      --shadow-card:  0 4px 20px rgba(0,0,0,0.08);
-    }
+:root {
+  --green-deep:   #4c1d95;
+  --green-mid:    #6d28d9;
+  --green-light:  #8b5cf6;
+  --green-pale:   #f3e8ff;
+
+  --gold:         #d4a843;
+  --gold-light:   #f5d77a;
+
+  --purple:       #7c3aed;
+  --purple-light: #c4b5fd;
+
+  --berry-red:    #e11d48;
+  --berry-blue:   #6366f1;
+
+  --cream:        #fcfaff;
+  --white:        #ffffff;
+
+  --text-dark:    #24153a;
+  --text-mid:     #5f5870;
+
+  --radius-lg:    24px;
+  --radius-xl:    40px;
+
+  --shadow-soft:  0 8px 40px rgba(76,29,149,0.12);
+  --shadow-card:  0 4px 20px rgba(76,29,149,0.08);
+}
 
     html { scroll-behavior: smooth; }
 
@@ -104,7 +111,7 @@
       background:
         radial-gradient(ellipse 70% 60% at 65% 40%, rgba(92,184,92,0.18) 0%, transparent 70%),
         radial-gradient(ellipse 50% 50% at 20% 80%, rgba(212,168,67,0.12) 0%, transparent 60%),
-        linear-gradient(160deg, #e8f5e9 0%, #fdf9f0 55%, #f0f8e8 100%);
+        linear-gradient(160deg, #f3e8ff 0%, #fcfaff 55%, #efe7ff 100%);
     }
 
     .hero-blobs {
@@ -128,7 +135,7 @@
 
     .blob-2 {
       width: 380px; height: 380px;
-      background: var(--gold);
+      background: #c084fc;
       bottom: -80px; left: 5%;
     }
 
@@ -195,7 +202,7 @@
       font-family: 'Baloo 2', sans-serif;
       font-weight: 800;
       font-size: 1.05rem;
-      background: var(--green-deep);
+      background: linear-gradient(180deg, #4c1d95 0%, #5b21b6 100%);
       color: var(--white);
       padding: 14px 32px;
       border-radius: 50px;
@@ -372,7 +379,7 @@
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 60% 80% at 80% 50%, rgba(92,184,92,0.15) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 80% 50%, rgba(139,92,246,0.18) 0%, transparent 60%),
         radial-gradient(ellipse 40% 40% at 10% 20%, rgba(212,168,67,0.10) 0%, transparent 50%);
     }
 
@@ -630,7 +637,7 @@
 
     /* ── JUNGLE FRIENDS ── */
     .jungle-section {
-      background: linear-gradient(180deg, #f0faf2 0%, #e8f5e9 100%);
+      background: linear-gradient(180deg, #faf5ff 0%, #f3e8ff 100%);
       text-align: center;
     }
 
@@ -809,7 +816,7 @@
     .about-logo img {
       width: 380px;
       max-width: 100%;
-      filter: drop-shadow(0 20px 40px rgba(26,92,42,0.15));
+      filter: drop-shadow(0 20px 40px rgba(76,29,149,0.18));
     }
 
     .about-text .section-title { margin-bottom: 20px; }
@@ -841,7 +848,7 @@
 
     /* ── FOOTER ── */
     footer {
-      background: var(--green-deep);
+      background: linear-gradient(180deg, #3b0764 0%, #4c1d95 100%);
       color: rgba(255,255,255,0.7);
       padding: 48px 5% 32px;
     }
