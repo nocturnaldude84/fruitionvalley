@@ -169,7 +169,7 @@
     .hero-text {
       position: relative;
       z-index: 2;
-      padding: 60px 5% 60px 8%;
+      padding: 80px 6% 80px 10%;
     }
 
     .hero-badge {
@@ -192,7 +192,8 @@
 
     .hero-title {
       font-family: 'Fredoka One', sans-serif;
-      font-size: clamp(2.8rem, 5vw, 4.2rem);
+        font-size: clamp(4rem, 7vw, 6.5rem);
+		  line-height: 0.95;
       line-height: 1.1;
       color: var(--green-deep);
       margin-bottom: 20px;
@@ -455,7 +456,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* ── SECTION SHARED ── */
-    section { padding: 80px 5%; }
+    section {
+ 	 padding: 120px 5%;
+	}
 
     .section-label {
       font-family: 'Baloo 2', sans-serif;
@@ -574,7 +577,7 @@ h1, h2, h3, h4, h5, h6 {
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 48px 32px;
+      padding: 72px 48px;
       position: relative;
       overflow: hidden;
       min-height: 420px;
@@ -628,7 +631,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .product-info {
-      padding: 48px 40px;
+      padding: 64px 56px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -919,7 +922,7 @@ h1, h2, h3, h4, h5, h6 {
     .about-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 60px;
+      gap: 100px;
       align-items: center;
       max-width: 1100px;
       margin: 0 auto;
@@ -1093,6 +1096,14 @@ h1, h2, h3, h4, h5, h6 {
   .tag-2,
   .tag-3 {
     display: none;
+  }
+
+section {
+    padding: 80px 6%;
+  }
+
+  .product-entry {
+    padding: 80px 6%;
   }
 
   .product-card { grid-template-columns: 1fr; }
