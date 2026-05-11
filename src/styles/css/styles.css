@@ -33,6 +33,16 @@
   --shadow-card:  0 4px 20px rgba(76,29,149,0.08);
 }
 
+a,
+button,
+.product-card,
+.friend-card,
+.collect-card,
+.tab-btn {
+  transition:
+  all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
     html { scroll-behavior: smooth; }
 
     body {
@@ -54,7 +64,8 @@
       background: rgba(255,255,255,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 2px solid var(--green-pale);
-      box-shadow: 0 2px 16px rgba(30,80,30,0.08);
+      box-shadow:
+0 8px 30px rgba(0,0,0,0.06);
     }
 
     .nav-logo img {
@@ -308,13 +319,15 @@ h1, h2, h3, h4, h5, h6 {
       border: none;
       cursor: pointer;
       transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 4px 16px rgba(26,92,42,0.30);
+      box-shadow:
+0 12px 30px rgba(76,29,149,0.22);
       display: inline-block;
     }
 
     .btn-primary:hover {
       transform: translateY(-3px);
-      box-shadow: 0 8px 24px rgba(26,92,42,0.35);
+      box-shadow:
+0 18px 40px rgba(76,29,149,0.30);
     }
 
     .btn-secondary {
@@ -393,7 +406,8 @@ h1, h2, h3, h4, h5, h6 {
 
     .hero-panda-img {
       width: 100%;
-      filter: drop-shadow(0 24px 48px rgba(0,0,0,0.18));
+      filter:
+drop-shadow(0 40px 80px rgba(0,0,0,0.22));
       animation: floatPanda 4s ease-in-out infinite;
     }
 
@@ -558,7 +572,9 @@ h1, h2, h3, h4, h5, h6 {
       background: var(--white);
       border-radius: var(--radius-xl);
       overflow: hidden;
-      box-shadow: var(--shadow-soft);
+      box-shadow:
+		0 20px 60px rgba(76,29,149,0.10),
+		0 8px 24px rgba(0,0,0,0.06);
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 0;
@@ -568,9 +584,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .product-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 60px rgba(0,0,0,0.13);
-    }
+	  transform: translateY(-10px);
+	  box-shadow:
+	  0 30px 80px rgba(76,29,149,0.16),
+	  0 12px 32px rgba(0,0,0,0.08);
+	}
 
     .product-visual {
       background: linear-gradient(145deg, #e8d5f5 0%, #c8a8e8 40%, #9c6bc9 100%);
@@ -595,7 +613,8 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 100%;
       position: relative;
       z-index: 1;
-      filter: drop-shadow(0 16px 32px rgba(0,0,0,0.20));
+      filter:
+		drop-shadow(0 30px 50px rgba(0,0,0,0.22));
       animation: floatPanda 4s ease-in-out infinite;
     }
 
@@ -774,17 +793,21 @@ h1, h2, h3, h4, h5, h6 {
       background: var(--white);
       border-radius: var(--radius-lg);
       padding: 28px 16px 24px;
-      box-shadow: var(--shadow-card);
+      box-shadow:
+0 10px 30px rgba(76,29,149,0.08);
       transition: transform 0.3s, box-shadow 0.3s;
       cursor: pointer;
       border: 2px solid transparent;
     }
 
     .friend-card:hover {
-      transform: translateY(-8px) scale(1.03);
-      box-shadow: 0 16px 40px rgba(0,0,0,0.13);
-      border-color: var(--green-light);
-    }
+  transform: translateY(-10px) scale(1.03);
+
+  box-shadow:
+  0 24px 50px rgba(76,29,149,0.14);
+
+  border-color: var(--green-light);
+}
 
     .friend-avatar {
       width: 90px;
