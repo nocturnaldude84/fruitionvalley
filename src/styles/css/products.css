@@ -183,7 +183,8 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 85%;
       position: relative;
       z-index: 1;
-      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.22));
+      filter:
+      drop-shadow(0 35px 60px rgba(0,0,0,0.24));
       animation: floatPanda 4s ease-in-out infinite;
     }
 
