@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
     /* Product entry sections */
     .product-entry {
-      padding: 80px 5%;
+      padding: 120px 5%;
       position: relative;
     }
 
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .product-entry-inner {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 90px;
   }
 
   .product-entry:nth-child(even) .product-entry-inner {
