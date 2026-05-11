@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5B2BBF">
+  <meta name="robots" content="noindex, follow">
+
+  <title>Blog | Fruition Valley Natural Fruit Snacks</title>
+
+  <meta name="description" content="The Fruition Valley blog is coming soon. Tips on healthy snacking, Jungle Friends updates, and more.">
+
+  <link rel="canonical" href="https://fruitionvalley.com/blog.html">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="src/assets/fav/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="src/assets/fav/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="src/styles/css/styles.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVCPL8R7P2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PVCPL8R7P2');
+  </script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Our Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- COMING SOON -->
+  <section class="blog-coming-section">
+    <div class="blog-coming-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="blog-coming-inner reveal">
+      <div class="blog-coming-logo">
+        <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
+      </div>
+
+      <div class="hero-badge">
+        <span>📝</span> Something Good Is Growing
+      </div>
+
+      <h1 class="blog-coming-title">
+        Our Blog Is
+        <em>Coming Soon</em>
+      </h1>
+
+      <p class="blog-coming-sub">
+        We're putting together tips on healthy snacking, Jungle Friends updates, nutrition guides for parents, and a whole lot more. Check back soon.
+      </p>
+
+      <div class="blog-coming-actions">
+        <a href="index.html" class="btn-primary">Take Me Home</a>
+        <a href="products.html" class="btn-secondary">Explore Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">
+          <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
+        </div>
+        <p class="footer-tagline">
+          Nature's Goodness, Packed for Kids.<br/>
+          Fresh. Pure. Natural. From our valley to your home.
+        </p>
+        <div class="eco-note" style="margin-top:20px;">
+          <span>&#9851;</span> This package is recyclable. Let's build a greener tomorrow.
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="products.html">Our Products</a></li>
+          <li><a href="index.html#jungle">Jungle Friends</a></li>
+          <li><a href="index.html#scan">Scan &amp; Play</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+919003210786">+91 9003210786</a></li>
+          <li><a href="#">Adur Global Traders</a></li>
+          <li><a href="#">Ernakulam, Kerala</a></li>
+          <li><a href="#">FSSAI: 21324187001167</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fruition Valley | Adur Global Traders | All rights reserved.</p>
+      <p class="footer-disclaimer">Not a substitute for a balanced diet. Recommended for children above 3 years. Images are for illustration purposes only.</p>
+    </div>
+  </footer>
+
+  <style>
+    .blog-coming-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(160deg, #f3e8ff 0%, #fcfaff 55%, #efe7ff 100%);
+      position: relative;
+      overflow: hidden;
+      padding: 140px 5% 80px;
+      text-align: center;
+    }
+
+    .blog-coming-blobs {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .blog-coming-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+
+    .blog-coming-logo {
+      margin-bottom: 32px;
+    }
+
+    .blog-coming-logo img {
+      width: 160px;
+      height: auto;
+      filter: drop-shadow(0 12px 32px rgba(76,29,149,0.18));
+    }
+
+    .blog-coming-inner .hero-badge {
+      margin-bottom: 24px;
+    }
+
+    .blog-coming-title {
+      font-family: 'Fredoka One', sans-serif;
+      font-size: clamp(2.6rem, 6vw, 4rem);
+      line-height: 1.1;
+      color: var(--green-deep);
+      margin-bottom: 20px;
+    }
+
+    .blog-coming-title em {
+      font-style: normal;
+      color: var(--gold);
+      display: block;
+    }
+
+    .blog-coming-sub {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-mid);
+      line-height: 1.75;
+      max-width: 480px;
+      margin: 0 auto 36px;
+    }
+
+    .blog-coming-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media (max-width: 600px) {
+      .blog-coming-actions { flex-direction: column; align-items: center; }
+      .blog-coming-logo img { width: 130px; }
+    }
+  </style>
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.10 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
