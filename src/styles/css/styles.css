@@ -60,7 +60,7 @@ button,
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 5%;
+      padding: 8px 5%;
       background: rgba(255,255,255,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 2px solid var(--green-pale);
@@ -69,7 +69,7 @@ button,
     }
 
     .nav-logo img {
-      height: 64px;
+      height: 52px;
       width: auto;
     }
 
@@ -117,26 +117,39 @@ button,
       position: relative;
       overflow: hidden;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 0.95fr 1.05fr;
       align-items: center;
       gap: 0;
     }
 
-	.hero-center-logo {
-	  position: absolute;
-	  top: 90px;
-	  left: 50%;
- 	 transform: translateX(-50%);
-	  z-index: 5;
-	}
+.hero-center-logo {
 
-	.hero-center-logo img {
-	  width: 320px;
-	  height: auto;
-	  display: block;
+  position: absolute;
 
-	  filter: drop-shadow(0 18px 40px rgba(0,0,0,0.18));
-	}
+  top: 78px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  z-index: 3;
+
+  opacity: 0.92;
+
+  pointer-events: none;
+}
+
+.hero-center-logo img {
+
+  width: 210px;
+
+  height: auto;
+
+  display: block;
+
+  filter:
+  drop-shadow(0 12px 30px rgba(0,0,0,0.12));
+}
 
     .hero-bg {
       position: absolute;
@@ -155,10 +168,10 @@ rgba(255,220,180,0.28) 0%,
 transparent 28%),
 
 linear-gradient(
-180deg,
-#fffdf8 0%,
-#fcf7ff 55%,
-#f8f2ff 100%
+90deg,
+#fffaf1 0%,
+#fcf7ff 52%,
+#f3e8ff 100%
 );
     }
 
@@ -196,7 +209,7 @@ linear-gradient(
     .hero-text {
       position: relative;
       z-index: 2;
-      padding: 80px 5% 80px 9%;
+      padding: 120px 4% 80px 8%;
     }
 
     .hero-badge {
@@ -223,10 +236,10 @@ linear-gradient(
 .hero-title {
 
   font-family: 'DM Serif Display', serif;
-font-style: normal;
-  font-size: clamp(3.8rem, 6vw, 5.8rem);
 
-  line-height: 0.98;
+  font-size: clamp(4rem, 6vw, 5.8rem);
+
+  line-height: 0.92;
 
   letter-spacing: -2px;
 
@@ -234,11 +247,12 @@ font-style: normal;
 
   margin-bottom: 28px;
 
+  max-width: 7ch;
 }
 
     .hero-title em {
       font-style: normal;
-      color: var(--gold);
+      color: inherit;
       display: block;
     }
 
@@ -344,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1.05rem;
       background: linear-gradient(180deg, #4c1d95 0%, #5b21b6 100%);
       color: var(--white);
-      padding: 14px 32px;
+      padding: 18px 36px;
       border-radius: 50px;
       text-decoration: none;
       border: none;
@@ -428,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 
   position: absolute;
 
-  width: 520px;
+  width: 640px;
   height: 520px;
 
   background:
@@ -1156,11 +1170,12 @@ drop-shadow(0 40px 80px rgba(0,0,0,0.22));
 
   .hero-center-logo img {
     width: 260px;
+	  mix-blend-mode: multiply;
   }
 
   .hero-text {
     padding: 40px 6%;
-    padding-top: 20px;
+    padding: 40px 4% 80px 8%;
   }
 
   .hero-subtitle { margin: 0 auto 36px; }
