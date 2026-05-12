@@ -26,22 +26,20 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
   <nav>
     <a href="index.html" class="nav-logo">
       <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
     </a>
 
     <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
       <li><a href="products.html">Our Products</a></li>
-      <li><a href="index.html#jungle">Jungle Friends</a></li>
+	  <li><a href="blog.html">Blogs</a></li>
       <li><a href="about.html">About Us</a></li>
       <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
     </ul>
   </nav>
 
-
-  <!-- HERO -->
   <section class="legal-hero">
 
     <div class="legal-hero-inner">
@@ -66,8 +64,6 @@
 
   </section>
 
-
-  <!-- CONTENT -->
   <section class="legal-layout">
 
     <article class="legal-content">
@@ -79,7 +75,6 @@
           By accessing or using the Fruition Valley website, you agree to comply with these Terms & Conditions. If you do not agree with any part of these terms, please discontinue use of the website.
         </p>
       </section>
-
 
       <section class="legal-section">
         <h2>2. Website Usage</h2>
@@ -93,7 +88,6 @@
         </p>
       </section>
 
-
       <section class="legal-section">
         <h2>3. Product Information</h2>
 
@@ -105,7 +99,6 @@
           Product images displayed on the website are intended for illustrative purposes.
         </p>
       </section>
-
 
       <section class="legal-section">
         <h2>4. Intellectual Property</h2>
@@ -119,7 +112,6 @@
         </p>
       </section>
 
-
       <section class="legal-section">
         <h2>5. External Links</h2>
 
@@ -127,7 +119,6 @@
           This website may contain links to third-party websites or services. Fruition Valley is not responsible for the content, practices, or policies of external websites.
         </p>
       </section>
-
 
       <section class="legal-section">
         <h2>6. Disclaimer</h2>
@@ -149,7 +140,6 @@
         </p>
       </section>
 
-
       <section class="legal-section">
         <h2>7. Limitation of Liability</h2>
 
@@ -158,7 +148,6 @@
         </p>
       </section>
 
-
       <section class="legal-section">
         <h2>8. Changes to Terms</h2>
 
@@ -166,7 +155,6 @@
           Fruition Valley may update or revise these Terms & Conditions periodically without prior notice. Continued use of the website following updates constitutes acceptance of the revised terms.
         </p>
       </section>
-
 
       <section class="legal-section">
         <h2>9. Contact Information</h2>
@@ -185,66 +173,6 @@
     </article>
 
   </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-top">
-      <div>
-        <div class="footer-logo">
-          <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
-        </div>
-
-        <p class="footer-tagline">
-          Nature's Goodness, Packed for Kids.<br/>
-          Fresh. Pure. Natural. From our valley to your home.
-        </p>
-      </div>
-
-      <div class="footer-col">
-        <h4>Quick Links</h4>
-
-        <ul>
-          <li><a href="products.html">Our Products</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="privacy-policy.html">Privacy Policy</a></li>
-          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Contact</h4>
-
-        <ul>
-          <li><a href="tel:+919003210786">+91 9003210786</a></li>
-          <li><a href="#">Adur Global Traders</a></li>
-          <li><a href="#">Ernakulam, Kerala</a></li>
-          <li><a href="#">FSSAI: 21324187001167</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p>&copy; 2026 Fruition Valley &nbsp;|&nbsp; Adur Global Traders &nbsp;|&nbsp; <a href="terms-and-conditions.html">Terms &amp; Conditions</a> &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</p>
-    </div>
-  </footer>
-
-
-  <script>
-    const reveals = document.querySelectorAll('.reveal');
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            entry.target.classList.add('visible');
-          }, i * 80);
-        }
-      });
-    }, { threshold: 0.10 });
-
-    reveals.forEach(el => observer.observe(el));
-  </script>
 
 </body>
 </html>
