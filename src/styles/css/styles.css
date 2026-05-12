@@ -100,8 +100,10 @@
 	}
 
 .hero {
-  min-height: 100vh;
+  min-height: 92vh;
   padding-top: 220px;
+  padding-bottom: 40px;
+
   position: relative;
   overflow: hidden;
 
@@ -110,16 +112,16 @@
   align-items: center;
   gap: 0;
 
-	background:
-  linear-gradient(
-    135deg,
-    rgba(248,244,255,0.72),
-    rgba(255,255,255,0.68)
-  ),
-  url("../../assets/images/hero-bg-premium.png");
+  background:
+    linear-gradient(
+      135deg,
+      rgba(248,244,255,0.65),
+      rgba(255,255,255,0.60)
+    ),
+    url("../../assets/images/hero-bg-premium.png");
 
-  background-size: 100%;
-  background-position: center;
+  background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
