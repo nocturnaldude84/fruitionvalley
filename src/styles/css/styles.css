@@ -489,6 +489,14 @@
       50% { transform: translateY(-8px) rotate(1deg); }
     }
 
+	@media (min-width: 1200px) {
+
+	  .hero-panda-wrap {
+	    width: 640px;
+		  }
+
+		}
+
     /* ── WAVE DIVIDER ── */
     .wave-divider {
       width: 100%;
