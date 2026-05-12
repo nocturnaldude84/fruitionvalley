@@ -181,16 +181,21 @@
 ───────────────────────────────────── */
 
 .article-layout {
-  max-width: 1120px;
+  max-width: 1380px;
 
   margin: 0 auto;
 
   padding: 72px 5% 56px;
 
   display: grid;
-  grid-template-columns: 1fr 340px;
 
-  gap: 60px;
+  grid-template-columns:
+    minmax(0, 820px)
+    340px;
+
+  justify-content: center;
+
+  gap: 72px;
 
   align-items: start;
 }
