@@ -110,15 +110,15 @@
   align-items: center;
   gap: 0;
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(248,244,255,0.92),
-      rgba(255,255,255,0.90)
-    ),
-    url("../../assets/images/hero-bg-premium.png");
+	background:
+  linear-gradient(
+    135deg,
+    rgba(248,244,255,0.72),
+    rgba(255,255,255,0.68)
+  ),
+  url("../../assets/images/hero-bg-premium.png");
 
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
