@@ -3,6 +3,9 @@
    Fruition Valley
 ───────────────────────────────────── */
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* ─────────────────────────────────────
    ARTICLE HERO
