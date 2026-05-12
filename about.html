@@ -42,10 +42,10 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet" />
-
+  
   <!-- Main Styles -->
   <link rel="stylesheet" href="src/styles/css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xut8hlc.css">
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVCPL8R7P2"></script>
@@ -84,7 +84,7 @@
       </div>
       <h1 class="hero-title reveal">
         Built for Kids.
-        <em>Backed by Nature.</em>
+        <span>Backed by Nature.</span>
       </h1>
       <p class="hero-subtitle reveal">
         We started Fruition Valley with one belief: kids deserve snacks that are both fun and genuinely good for them. Real ingredients, playful characters, and flavors kids actually enjoy — that is what we are building, one pack at a time.
@@ -403,19 +403,21 @@
     }
 
     .section-title {
-      font-family: 'Fredoka One', sans-serif;
+      font-family: "the-seasons", serif;
+      font-weight: 400;
       font-size: clamp(2rem, 4vw, 2.8rem);
       color: var(--green-deep);
       line-height: 1.15;
       margin-bottom: 16px;
+      letter-spacing: -0.02em;
     }
 
     .section-sub {
-      font-size: 1.05rem;
+      font-size: 1.08rem;
       font-weight: 600;
       color: var(--text-mid);
-      line-height: 1.7;
-      max-width: 600px;
+      line-height: 1.85;
+      max-width: 680px;
     }
 
     .wave-divider { line-height: 0; }
@@ -471,10 +473,22 @@
 
     .about-hero .hero-badge { margin: 0 auto 24px; }
 
-    .about-hero .hero-title {
-      font-size: clamp(2.4rem, 5vw, 3.8rem);
-      margin-bottom: 16px;
-    }
+.about-hero .hero-title {
+  font-family: "the-seasons", serif;
+  font-size: clamp(4rem, 8vw, 6.5rem);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  color: var(--green-deep);
+  margin-bottom: 22px;
+  text-wrap: balance;
+}
+
+.about-hero .hero-title span {
+  display: block;
+  color: var(--gold);
+  font-style: italic;
+}
 
     .about-hero .hero-subtitle {
       margin: 0 auto;
