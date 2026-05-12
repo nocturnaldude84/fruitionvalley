@@ -99,16 +99,49 @@
  	 width: 140px;
 	}
 
-    .hero {
-      min-height: 100vh;
-      padding-top: 220px;
-      position: relative;
-      overflow: hidden;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      gap: 0;
-    }
+.hero {
+  min-height: 100vh;
+  padding-top: 220px;
+  position: relative;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(248,244,255,0.92),
+      rgba(255,255,255,0.90)
+    ),
+    url("src/assets/images/hero-bg-premium.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top left,
+    rgba(168,85,247,0.10), transparent 35%),
+    radial-gradient(circle at bottom right,
+    rgba(249,115,22,0.08), transparent 35%);
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
 
 	.hero-heading-image {
  	 width: 100%;
