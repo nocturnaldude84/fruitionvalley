@@ -1,0 +1,77 @@
+/* ─────────────────────────────────────
+   LEGAL PAGES
+───────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ─────────────────────────────────────
+   HERO
+───────────────────────────────────── */
+
+.legal-hero {
+  padding: 180px 5% 90px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(248,244,255,0.82),
+      rgba(255,255,255,0.74)
+    ),
+    url("../../assets/images/hero-bg-premium.png");
+
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.legal-hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.legal-badge {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 8px 18px;
+
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.78);
+
+  border: 2px solid #d8b4fe;
+
+  color: #5b21b6;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  margin-bottom: 24px;
+}
+
+.legal-title {
+  font-family: "the-seasons", serif;
+
+  font-size: clamp(4rem, 8vw, 6.4rem);
+
+  font-weight: 500;
+
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+
+  color: #4c1d95;
+
+  margin-bottom: 24px;
+
+}
