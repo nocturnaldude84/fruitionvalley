@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">
+          <img src="src/assets/images/Logo.png" alt="Fruition Valley" />
+        </div>
+
+        <p class="footer-tagline">
+          Nature's Goodness, Packed for Kids.<br/>
+          Fresh. Pure. Natural. From our valley to your home.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+
+        <ul>
+          <li><a href="products.html">Our Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+
+        <ul>
+          <li><a href="tel:+919003210786">+91 9003210786</a></li>
+          <li><a href="#">Adur Global Traders</a></li>
+          <li><a href="#">Ernakulam, Kerala</a></li>
+          <li><a href="#">FSSAI: 21324187001167</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fruition Valley &nbsp;|&nbsp; Adur Global Traders &nbsp;|&nbsp; <a href="terms-and-conditions.html">Terms &amp; Conditions</a> &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</p>
+    </div>
+  </footer>
+
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, i * 80);
+        }
+      });
+    }, { threshold: 0.10 });
+
+    reveals.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
