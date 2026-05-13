@@ -1403,18 +1403,36 @@
 .blog-grid-section {
   padding: 60px 5% 100px;
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(248,244,255,0.82),
-      rgba(255,255,255,0.74)
-    ),
-    url("../../assets/images/hero-bg-premium.webp");
+background:
+  linear-gradient(
+    180deg,
+    #f7f1ff 0%,
+    #fcfaff 45%,
+    #f3ecff 100%
+  );
 
-  background-size: cover;
-  background-position: center;
+position: relative;
+overflow: hidden;
 
   min-height: 100vh;
+}
+
+.blog-grid-section::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top right,
+    rgba(139,92,246,0.10),
+    transparent 28%),
+
+    radial-gradient(circle at bottom left,
+    rgba(246,139,74,0.08),
+    transparent 30%);
+
+  pointer-events: none;
 }
 
 .blog-grid {
