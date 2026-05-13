@@ -1216,10 +1216,29 @@
 
 .featured-blog {
   position: relative;
+	isolation: isolate;
   overflow: hidden;
 
   padding: 180px 8% 100px;
 
+.featured-blog::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top right,
+    rgba(139,92,246,0.16),
+    transparent 35%),
+
+    radial-gradient(circle at bottom left,
+    rgba(246,139,74,0.12),
+    transparent 35%);
+
+  z-index: -1;
+}
+	
   background:
     linear-gradient(
       135deg,
@@ -1382,7 +1401,7 @@
 }
 
 .blog-grid-section {
-  padding: 140px 5% 100px;
+  padding: 60px 5% 100px;
 
   background:
     linear-gradient(
