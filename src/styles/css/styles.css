@@ -1401,7 +1401,7 @@
 }
 
 .blog-grid-section {
-  padding: 60px 5% 100px;
+  padding: 50px 5% 70px;
 
 background:
   linear-gradient(
@@ -1561,7 +1561,7 @@ overflow: hidden;
 
   gap: 24px;
 
-  margin-top: 34px;
+  margin-top: 42px;
 
   justify-content: center;
 
