@@ -40,6 +40,10 @@
     <loc>https://fruitionvalley.com/privacy-policy.html</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://fruitionvalley.com/blog-truth-about-fruit-sugar.html</loc>
+    <priority>0.6</priority>
+  </url>
 
   
 </urlset>
