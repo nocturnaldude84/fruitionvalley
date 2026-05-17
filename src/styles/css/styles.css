@@ -62,6 +62,32 @@
       width: auto;
     }
 
+.nav-brand-title {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: "the-seasons", serif;
+
+  font-size: 2rem;
+
+  font-weight: 500;
+
+  letter-spacing: -0.025em;
+
+  color: rgba(76, 29, 149, 0.88);
+
+  white-space: nowrap;
+
+  pointer-events: none;
+
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.45);
+
+  opacity: 0.92;
+}
+
     .nav-links {
       display: flex;
       gap: 32px;
