@@ -1403,6 +1403,10 @@
     padding-top: 220px;
   }
 
+  .nav-brand-title {
+    display: none;
+  }
+	
   .featured-blog-inner {
     grid-template-columns: 1fr;
     text-align: center;
